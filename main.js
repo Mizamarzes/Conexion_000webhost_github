@@ -1,5 +1,5 @@
 let conexionServidor = async()=>{
-    let comunicacion = await fetch("https://instructormiguel.000webhostapp.com/Conexion_000webhost_github/api.php");
+    let comunicacion = await fetch("https://mizamarzes.github.io/Conexion_Servidor_github/");
     let texto = await comunicacion.text();
     document.querySelector("body").innerHTML = texto;
 }
